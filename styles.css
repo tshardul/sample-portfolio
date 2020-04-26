@@ -1,0 +1,275 @@
+html {
+  background: url(images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  background-color: transparent;
+  color:#696969;
+}
+
+h1,h2 {
+  font-family: "Manrope", sans-serif;
+}
+
+
+.container-fluid {
+  max-width: 80%;
+  text-align: center;
+}
+
+
+ /* TITLE AND NAVBAR */
+#title {
+  margin-top:2rem;
+
+}
+
+
+.navbar-nav{
+  text-align: right;
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+
+.title-name {
+  margin: auto;
+  background-color: black;
+  background-color: rgba(255, 255, 255, 0.75);
+  margin-top: 5rem;
+  min-height: 25rem;
+}
+
+.big-name {
+  margin: auto;
+  color: #696969;
+  font-size: 3.5rem;
+}
+
+
+/* cover statement */
+
+.statement,.profile, .work-experience, .skills-list, .contact{
+  padding: 3rem 3rem 1rem;
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.75);
+  margin-top: 11rem;
+  min-height: 10rem;
+
+}
+
+.cv {
+  text-decoration: underline;
+  color: #696969;
+}
+
+.cv-btn {
+  margin:2rem 0 3rem;
+}
+
+.statement-text {
+  padding: 3rem 3rem 0;
+  text-align:center;
+
+}
+
+
+/* Profile */
+.robot {
+  max-width: 70%;
+  padding-bottom: 3rem;
+  padding-top: 5rem;
+
+}
+
+.image-robot{
+  padding: 3rem 3rem 0;
+  background-color: black;
+  background-color: rgba(255, 255, 255, 0.75);
+  margin-top:11rem;
+  min-height: 10rem;
+}
+
+
+@media (max-width: 991px) {
+  .image-robot{
+  margin-top:0;
+  }
+  .carousel-indicators {
+  bottom: -30px;
+
+  }
+
+}
+
+#btn-link-1,#btn-link-3{
+  width: 2.5rem;
+  padding: 0 0.5rem 0 0;
+
+}
+
+#btn-link-2 {
+  margin-bottom: 3rem;
+}
+
+.btn-block {
+  margin:3rem 0 2rem;
+}
+
+
+}
+/* Work experience and projects */
+.work-experience{
+  padding: 3rem 3rem 1rem;
+  background-color: black;
+  background-color: rgba(255, 255, 255, 0.75);
+  margin-top: 10rem;
+  min-height: 10rem;
+  text-align: left;
+}
+
+.exp-link {
+  color: #696969;
+  font-weight: bold;
+}
+
+.exp-link:hover {
+  color: black;
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+    text-align:left;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #696969;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+.work-exp-title {
+  margin-bottom: 4rem;
+}
+
+.timeline-text {
+  margin-top: 1.5rem;
+}
+
+/* Skills */
+
+.skills-row-top {
+  margin: 5rem 0 0;
+  padding: 1.5rem 0;
+}
+
+.skills-row-bot {
+  margin: 1rem 0 3rem;
+}
+
+.iconify {
+  width: 3rem;
+  height: 3rem;
+}
+
+.skills-heading {
+  padding-top: 1rem;
+}
+
+/* education */
+
+.work-exp-title {
+  text-align: center;
+}
+
+.education-timeline{
+  padding: 3rem 3rem 1rem;
+  background-color: black;
+  background-color: rgba(255, 255, 255, 0.75);
+  margin-top: 10rem;
+  min-height: 10rem;
+  text-align: left;
+}
+
+.headline-edu, .work-exp {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.carousel {
+  text-align: center;
+}
+
+.training-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-control-prev,.carousel-control-next {
+  filter: invert(100%);
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.carousel-indicators li {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #696969;
+}
+
+.carousel-title {
+  padding-top: 3rem;
+}
+
+/* Contact */
+
+
+
+.contact {
+  padding: 3rem 3rem 1rem;
+}
+
+.contact h2 {
+  margin-bottom: 2rem;
+}
+
+.footericon {
+  width: 1.5rem;
+  color: #696969;
+  margin: 1rem 1rem;
+}
